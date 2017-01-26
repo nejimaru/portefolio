@@ -198,5 +198,8 @@ transition-delay:.2s;
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
   .col-log, .col-descr {
     float: left;
-
+  }
+  .ht {
+    height: 64px;
+  }
 }
