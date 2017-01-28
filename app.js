@@ -1,5 +1,5 @@
 
-// parallax 
+// parallax
 var jumboHeight = $('.jumbotron').outerHeight();
 function parallax(){
     var scrolled = $(window).scrollTop();
@@ -9,20 +9,17 @@ function parallax(){
 $(window).scroll(function(e){
     parallax();
 });
-// end parallax 
 
-/*$(window).scroll(function(){
-  var sticky = $('.sticky'),
-      scroll = $(window).scrollTop();
-
-  if (scroll >= 900) sticky.addClass('fixed');
-  else sticky.removeClass('fixed');
+//schroll
+$('a[href*="#"]:not([href="#"])').click(function() {
+  if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+    var target = $(this.hash);
+    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+    if (target.length) {
+      $('html, body').animate({
+        scrollTop: target.offset().top
+      }, 1000);
+      return false;
+    }
+  }
 });
-/*
-$(window).scroll(function(){
-  var sticky = $('.sticky'),
-      scroll = $(window).scrollTop();
-
-  if (scroll >= 100) sticky.addClass('fixed');
-  else sticky.removeClass('fixed');
-});*/
