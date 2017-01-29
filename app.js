@@ -10,6 +10,7 @@ $(window).scroll(function(e){
     parallax();
 });
 
+
 //schroll
 $('a[href*="#"]:not([href="#"])').click(function() {
   if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
@@ -23,3 +24,13 @@ $('a[href*="#"]:not([href="#"])').click(function() {
     }
   }
 });
+
+//progress bar
+
+$(document).ready(function() {
+      $('.progress .progress-bar').css("width",
+                function() {
+                    return $(this).attr("aria-valuenow") + "%";
+                }
+        )
+    });
