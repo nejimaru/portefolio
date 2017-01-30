@@ -66,6 +66,8 @@ h2 {
 
 .wt {
   color: white;
+  padding-top: 10px;
+  padding-bottom: 34px;
 }
 
 .ht {
@@ -76,7 +78,10 @@ h2 {
   margin-bottom: 40px;
 }
 
-
+.pf_title {
+  padding-top: 10px;
+  padding-bottom: 34px;
+}
 
 .footer_color {
   background-color: #292929;
