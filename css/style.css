@@ -175,7 +175,48 @@ transform:translatey(0);
 transition-delay:.2s;
 }
 
-/* bar de progression*/
+.rr {
+  background-color:;
+  padding-bottom: 50px;
+}
+
+/*social slide*/
+
+.social-slide-linkedin {
+	background-image: url('../image/linkedin-hover.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-slide-linkedin:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+.social-slide-twitter {
+	background-image: url('../image/twitter-hover.png');
+	height: 48px;
+	width: 48px;
+	margin: 10px;
+	float: left;
+	-webkit-transition: all ease 0.3s;
+	-moz-transition: all ease 0.3s;
+	-o-transition: all ease 0.3s;
+	-ms-transition: all ease 0.3s;
+	transition: all ease 0.3s;
+}
+.social-slide-twitter:hover {
+	background-position: 0px -48px;
+	box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.8);
+}
+
+
 
 
 
