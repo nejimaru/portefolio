@@ -283,7 +283,7 @@ h2 {
   }
 }
 
-@media (max-width: 768px) {
+@media (max-width: 588px) {
   .bg {
       background: url('../image/image-jumb.jpg') no-repeat center center;
       position: fixed;
