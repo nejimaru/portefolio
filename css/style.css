@@ -270,3 +270,15 @@ h2 {
         height: 64px;
     }
 }
+
+@media (min-width: 992px) {
+.hovereffect a.info {
+    margin: 8px 0 0;
+  }
+}
+
+@media (min-width: 768px) {
+  .hovereffect a.info {
+    margin: 14px 0 0;
+  }
+}
