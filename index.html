@@ -186,7 +186,7 @@
 			</div>
 			<!--****************************end row 2 *************************************************-->
 
-			<div class="row m-btm">
+			<div class="row ">
 				<!-- a retoucher -->
 
 				<div class=" col-xs-3 col-sm-2 col-md-2 col-lg-2  pull-left">
@@ -272,7 +272,7 @@
 
 			<!--***********************************row 4***********************************-->
 
-			<div class="row">
+			<div class="row m-btm">
 
 				<div class=" col-xs-3 col-sm-2 col-md-2 col-lg-2  pull-left">
 					<img src="http://www.icone-png.com/png/52/52478.png" style="width:100%; height:100%;" alt="">
@@ -339,7 +339,7 @@
 						<img class="img-responsive" src="image/DZ.png" alt="">
 						<div class="overlay">
 							<h2>Canvu</h2>
-							<a class="info" href="https://cams03.github.io/canvus/page_accueil.html">Lien</a>
+							<a class="info" data-toggle="modal" data-target="#SPRModal" href="">Lien</a> <!--https://cams03.github.io/planet-vs-rocket/page_accueil.html-->
 						</div>
 					</div>
 				</div>
@@ -349,14 +349,14 @@
 						<img class="img-responsive" src="image/e2c.PNG" alt="">
 						<div class="overlay">
 							<h2>REC E2C (modèle)</h2>
-							<a class="info" href="http://www.e2c13.fr/rec/">Lien</a>
+							<a class="info" data-toggle="modal" data-target="#E2CModal" href="">Lien</a> <!-- http://www.e2c13.fr/rec/-->
 						</div>
 					</div>
 				</div>
 
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="hovereffect">
-						<img class="img-responsive" src="image/super_race.JPG" alt="">
+						<img class="img-responsive" src="image/super_race.png" alt="">
 						<div class="overlay">
 							<h2>Projet X-Y</h2>
 							<a class="info" data-toggle="modal" data-target="#XYModal" href="">Lien</a> <!--https://alexandradra.github.io/super_race-->
@@ -383,7 +383,7 @@
 
 <!-- Modal -->
 <div id="trombiModal" class="modal fade" role="dialog" >
-  <div class="modal-dialog" style="width:80%;">
+  <div class="modal-dialog" style="width:95%;">
 
     <!-- Modal content-->
     <div class="modal-content">
@@ -393,8 +393,13 @@
       </div>
       <div class="modal-body" style="display:flex;">
         <div style="width:70%;height:30%;"><img src="image/trombi-ijl.JPG" alt="" style="width:100%;"></div>
-				<div style="width:30%;height:30%;"class="">
-					fgsggdsfgds
+				<div style="width:30%;height:30%;word-wrap: break-word;"class="">
+					<p>Trombinoscope de la promo 3 de SimplonMars réalisé dans le cadre de de la formation</p>
+					<p>technologie utilisé:</p>
+					<ul>
+						<li>Html</li>
+						<li>CSS</li>
+					</ul>
 				</div>
       </div>
 
@@ -412,16 +417,24 @@
 
 <!-- Modal -->
 <div id="XYModal" class="modal fade" role="dialog">
-<div class="modal-dialog">
+<div class="modal-dialog" style="width:95%;">
 
 <!-- Modal content-->
 <div class="modal-content">
 	<div class="modal-header">
 		<button type="button" class="close" data-dismiss="modal">&times;</button>
-		<h4 class="modal-title">Modal Header Bro!</h4>
+		<h4 class="modal-title">Projet X-Y</h4>
 	</div>
-	<div class="modal-body">
-		<p>Some text in the modal.</p>
+	<div class="modal-body" style="display:flex;">
+		<div style="width:70%;height:30%;"><img src="image/super_race.PNG" alt="" style="width:100%;"></div>
+		<div style="width:30%;height:30%;word-wrap: break-word;"class="">
+			<p>Trombinoscope de la promo 3 de SimplonMars réalisé dans le cadre de de la formation</p>
+			<p>technologie utilisé:</p>
+			<ul>
+				<li>Html</li>
+				<li>CSS</li>
+			</ul>
+		</div>
 	</div>
 	<div class="modal-footer">
 		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -432,6 +445,67 @@
 </div>
 
 											<!-- end modals projet XY -->
+											<!--modals E2C-->
+
+<div id="E2CModal" class="modal fade" role="dialog">
+<div class="modal-dialog" style="width:95%;">
+
+<!-- Modal content-->
+<div class="modal-content">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		<h4 class="modal-title">Projet X-Y</h4>
+	</div>
+	<div class="modal-body" style="display:flex;">
+		<div style="width:70%;height:30%;"><img src="image/e2c.PNG" alt="" style="width:100%;"></div>
+		<div style="width:30%;height:30%;word-wrap: break-word;"class="">
+			<p>Trombinoscope de la promo 3 de SimplonMars réalisé dans le cadre de de la formation</p>
+			<p>technologie utilisé:</p>
+			<ul>
+				<li>Html</li>
+				<li>CSS</li>
+			</ul>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	</div>
+</div>
+
+</div>
+</div>
+
+											<!--end modal E2C -->
+											<!-- modal super rocket-->
+<div id="SPRModal" class="modal fade" role="dialog">
+<div class="modal-dialog" style="width:95%;">
+
+<!-- Modal content-->
+<div class="modal-content">
+	<div class="modal-header">
+		<button type="button" class="close" data-dismiss="modal">&times;</button>
+		<h4 class="modal-title">Planet vs Rocket</h4>
+	</div>
+	<div class="modal-body" style="display:flex;">
+		<div style="width:70%;height:30%;"><img src="image/DZ.png" alt="" style="width:100%;"></div>
+		<div style="width:30%;height:30%;word-wrap: break-word;"class="">
+			<p>Trombinoscope de la promo 3 de SimplonMars réalisé dans le cadre de de la formation</p>
+			<p>technologie utilisé:</p>
+			<ul>
+				<li>Html</li>
+				<li>CSS</li>
+			</ul>
+		</div>
+	</div>
+	<div class="modal-footer">
+		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+	</div>
+</div>
+
+</div>
+</div>
+
+											<!-- end modal super rocket -->
 
 		<!--**************************************end modals************************************-->
 
