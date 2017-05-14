@@ -277,6 +277,9 @@ h2 {
 	top:1px;
 }
 
+.no-puce {
+  list-style-type: none;
+}
 
 @media (min-width: 992px) {
   .ht {
