@@ -17,6 +17,11 @@
   background: transparent;
 }
 
+
+.hidden {
+  visibility: hidden;
+}
+
 .ncenter {
   margin-left: auto;
   margin-right: auto;
